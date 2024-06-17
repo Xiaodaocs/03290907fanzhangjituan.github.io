@@ -1,0 +1,26 @@
+<!-- contact.html 示例 -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - 示例网站</title>
+</head>
+<body>
+    <h1>联系我们</h1>
+    <form id="contactForm">
+        <label for="name">姓名:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">邮箱:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">您的消息:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br>
+        
+        <button type="submit">提交</button>
+    </form>
+    
+    <script src="contact-form.js"></script> <!-- 引入处理表单的JS -->
+</body>
+</html>

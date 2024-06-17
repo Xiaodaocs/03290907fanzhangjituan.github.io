@@ -1,0 +1,9 @@
+#cursor-follower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4285F4; /* Google蓝色，您可以更改为您喜欢的颜色 */
+    transition: background-color 0.3s ease;
+    pointer-events: none; /* 确保鼠标能穿过这个元素 */
+}

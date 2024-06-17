@@ -1,0 +1,46 @@
+/* 一个简单的波浪动画示例 */
+@keyframes wave {
+    0%, 100% {background-position: 0 bottom;}
+    50% {background-position: 100% bottom;}
+}
+
+body {
+    background: linear-gradient(to right, #7285ec, #1808f1);
+    background-size: 200% 100%;
+    animation: wave 2s ease infinite;
+}
+
+header {
+    background-color: #d2d2d2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: rgb(52, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 137);
+}
+
+#myButton {
+    background-color: #4CAF50; /* 绿色背景 */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
